@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024旺季营销总结表彰大会</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .section { display: flex; justify-content: center; align-items: center; flex-direction: column; }
+        .title { font-size: 2rem; font-weight: bold; }
+        .content { font-size: 1.2rem; width: 80%; margin-top: 10px; }
+        .award img { width: 150px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" style="background: red; color: white;">
+            <h1 class="title animate__animated animate__fadeInDown">2024年度旺季营销总结表彰大会</h1>
+        </div>
+        <div class="section" style="background: white;">
+            <h2 class="title animate__animated animate__fadeInUp">大会回顾</h2>
+            <p class="content animate__animated animate__fadeIn">2月11日，灌云支行召开2024年度旺季营销总结表彰大会，全面回顾过去一年工作。</p>
+        </div>
+        <div class="section" style="background: #f8f8f8;">
+            <h2 class="title animate__animated animate__fadeInUp">领导讲话</h2>
+            <p class="content animate__animated animate__fadeIn">陈行长总结2024年工作表现，并对2025年提出要求。</p>
+        </div>
+        <div class="section award" style="background: gold;">
+            <h2 class="title animate__animated animate__fadeInUp">优秀员工表彰</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" class="animate__animated animate__bounceIn" alt="奖杯">
+        </div>
+        <div class="section" style="background: linear-gradient(to bottom, #ffcc00, #ff6600); color: white;">
+            <h2 class="title animate__animated animate__fadeInUp">展望2025</h2>
+            <p class="content animate__animated animate__fadeIn">激励全体员工在新的一年再接再厉，为银行高质量发展续写辉煌篇章。</p>
+        </div>
+        <div class="section" style="background: black; color: white;">
+            <h2 class="title animate__animated animate__fadeIn">2025，我们再创辉煌！</h2>
+            <button onclick="location.reload()" class="animate__animated animate__pulse">返回首页</button>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            navigation: true,
+        });
+    </script>
+</body>
+</html>
